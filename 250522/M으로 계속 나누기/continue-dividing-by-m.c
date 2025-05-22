@@ -4,9 +4,8 @@ int main() {
     int N, M;
     scanf("%d %d", &N, &M);
     while(N>0){
-        printf("%d\n", N/M);
+        printf("%d\n", N);
         N=N/M;
-        N++
     }
     
     // Please write your code here.
